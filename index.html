@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Space Invaders</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div class="screen-start">
+				<label class="name-player-label">Name Player</label>
+				<input class="name-player" type="text" placeholder="Name" />
+
+				<button id="start-button">Start Game</button>
+				<p class="text">Use the left and right arrow to control the Ship</p>
+				<audio id="audioScreen1" autoplay controls loop>
+					<source src="music/screen1.wav" type="audio/mav" />
+					<source src="music/screen1.wav" type="audio/mpeg" />
+					No reproduce este navegador
+				</audio>
+			</div>
+			<div class="screen-game">
+				<h2 class="player text">Name Player</h2>
+				<h2 class="results text">0</h2>
+				<div class="grid"></div>
+
+				<audio id="audioScreen2" controls loop>
+					<source src="music/screen2.wav" type="audio/mav" />
+					<source src="music/screen2.wav" type="audio/mpeg" />
+					No reproduce este navegador
+				</audio>
+			</div>
+			<div class="screen-over">
+				<label class="over-final text">WIN or NOT</label>
+				<label class="name-player-over text">Name Player</label>
+				<label class="score-player-over text">score final</label>
+
+				<button id="restart-button">Restart</button>
+				<audio id="audioScreen3" controls loop>
+					<source src="music/screen3.wav" type="audio/mav" />
+					<source src="music/screen3.wav" type="audio/mpeg" />
+					No reproduce este navegador
+				</audio>
+			</div>
+		</main>
+		<script type="text/javascript" src="./js/appEx.js"></script>
+		<script type="text/javascript" src="./js/gameEx.js"></script>
+		<script type="text/javascript" src="./js/playerEx.js"></script>
+	</body>
+</html>

@@ -1,0 +1,144 @@
+* {
+	font-family: "fantasy";
+}
+
+button {
+	font-size: 30px;
+	background-color: darkblue;
+	color: #fff;
+	padding: 10px 20px;
+	border: 0;
+	box-shadow: 3px 3px 5px white;
+	border-radius: 5px;
+	margin: 10px;
+	text-shadow: 3px 3px 5px black;
+	cursor: grab;
+}
+
+.screen-start {
+	background-image: url("/The-game-invader/images/space.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	padding: 20px 0;
+	margin: 5px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.screen-game {
+	background-image: url("/The-game-invader/images/space1.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	padding: 20px 0;
+	margin: 5px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.screen-over {
+	background-image: url("/The-game-invader/images/space2.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 800px;
+	padding: 20px 0;
+	margin: 5px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.name-player-label {
+	font-size: 38px;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px white;
+	color: floralwhite;
+}
+
+.name-player {
+	border: none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 40%;
+	background-color: #a1d1f5;
+
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+	margin-bottom: 30px;
+	cursor: pointer;
+	transition: border 1s ease-in-out;
+	border-radius: 10px;
+}
+
+.name-player:focus {
+	border: 1px solid blue;
+}
+
+.text {
+	font-size: 30px;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px white;
+	color: floralwhite;
+	margin: 10px;
+}
+
+.grid {
+	width: 600px;
+	height: 600px;
+	border: ridge black 4px;
+	background-color: rgba(1, 1, 1, 0.4);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	width: 40px;
+	height: 40px;
+}
+
+.invader {
+	background-image: url(./images/enemyBlue1.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.shooter {
+	background-image: url(./images/playerShip1_orange.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.laser {
+	background-image: url(./images/laserGreen10.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.boom {
+	background-image: url(./images/playerShip2_damage3.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+audio {
+	margin: 50px 0;
+}
