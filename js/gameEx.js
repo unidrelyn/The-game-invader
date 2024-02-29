@@ -71,7 +71,7 @@ class Game {
 
 		this.invadersId = setInterval(() => {
 			this.moveInvaders();
-		}, 200);
+		}, 300);
 		this.squares[this.currentShooterIndex].classList.add("shooter");
 	}
 
