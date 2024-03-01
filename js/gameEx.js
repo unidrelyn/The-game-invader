@@ -112,13 +112,11 @@ class Game {
 		this.draw();
 
 		if (this.squares[this.currentShooterIndex].classList.contains("invader")) {
-			//this.resultDisplay.innerHTML = "GAME OVER";
 			this.gameOver("GAME OVER");
 			clearInterval(this.invadersId);
 		}
 
 		if (this.aliensRemoved.length === this.alienInvaders.length) {
-			//this.resultDisplay.innerHTML = "YOU WIN";
 			this.gameOver("YOU WIN");
 			clearInterval(this.invadersId);
 		}

@@ -2,13 +2,20 @@
 	font-family: "fantasy";
 }
 
+h1 {
+	font-size: 90px;
+	font-weight: bold;
+	text-shadow: 3px 3px 5px black;
+	color: goldenrod;
+	margin: 30px 0;
+}
 button {
 	font-size: 30px;
-	background-color: darkblue;
+	background-color: lightskyblue;
 	color: #fff;
 	padding: 10px 20px;
 	border: 0;
-	box-shadow: 3px 3px 5px white;
+	box-shadow: 3px 3px 15px black;
 	border-radius: 5px;
 	margin: 10px;
 	text-shadow: 3px 3px 5px black;
@@ -20,7 +27,7 @@ button {
 	background-size: cover;
 	width: 100%;
 	height: 800px;
-	padding: 20px 0;
+	padding: 10px 0;
 	margin: 5px;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -66,6 +73,7 @@ button {
 	font-weight: bold;
 	text-shadow: 3px 3px 5px white;
 	color: floralwhite;
+	margin-bottom: 20px;
 }
 
 .name-player {
@@ -93,9 +101,9 @@ button {
 	font-size: 30px;
 	font-style: italic;
 	font-weight: bold;
-	text-shadow: 3px 3px 5px white;
+	text-shadow: 3px 3px 5px black;
 	color: floralwhite;
-	margin: 10px;
+	margin: 15px 0;
 }
 
 .grid {
@@ -140,6 +148,6 @@ button {
 }
 
 audio {
-	margin: 2px 0;
+	margin: 20px 0;
 	height: 20px;
 }
